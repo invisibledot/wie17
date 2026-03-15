@@ -6,7 +6,9 @@
 <div class="min-h-screen flex flex-col bg-gray-50">
   <!-- Navbar -->
   <nav class="bg-white shadow-md sticky top-0 z-50 relative px-6 py-4 flex justify-between items-center">
-    <div class="text-2xl font-bold text-gray-800">Wie17</div>
+    <a href="/">
+      <img src="/wie17-wordmark.svg" alt="Wie17" class="h-10 sm:h-12 object-contain" />
+      </a>
 
     <!-- Desktop links -->
     <div class="hidden sm:flex gap-6">
