@@ -6,7 +6,7 @@
 <div class="min-h-screen flex flex-col bg-gray-50">
   <!-- Navbar -->
   <nav class="bg-white shadow-md sticky top-0 z-50 relative px-6 py-4 flex justify-between items-center">
-    <div class="text-2xl font-bold text-gray-800">Wie17 test</div>
+    <div class="text-2xl font-bold text-gray-800">Wie17</div>
 
     <!-- Desktop links -->
     <div class="hidden sm:flex gap-6">
