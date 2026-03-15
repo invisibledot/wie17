@@ -27,26 +27,26 @@ async function submit() {
 <div class="flex justify-center mt-10 px-4">
   <form
     on:submit|preventDefault={submit}
-    class="w-full max-w-lg bg-white p-8 rounded-xl shadow-lg sm:p-10"
+    class="w-full max-w-lg bg-blue p-8 rounded-xl shadow-lg sm:p-10"
   >
-    <h1 class="text-3xl font-bold mb-6 text-center">Add Entry</h1>
+    <h1 class="text-3xl font-bold mb-6 text-center text-yellow">Add Entry</h1>
 
     <div class="flex flex-col gap-4">
       <input
-        class="border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="text-blue bg-white border border-orange rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-pink"
         placeholder="Title"
         bind:value={title}
       />
 
       <textarea
-        class="border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+        class="text-blue bg-white border border-orange rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-pink resize-none"
         placeholder="Description"
         bind:value={description}
         rows="4"
       ></textarea>
 
       <input
-        class="border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="text-blue bg-white border border-orange rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-pink"
         placeholder="Image URL"
         bind:value={image_url}
       />
@@ -61,14 +61,14 @@ async function submit() {
       {/if}
 
       <input
-        class="border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="text-blue bg-white border border-orange rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-pink"
         placeholder="Tags (comma separated)"
         bind:value={tags}
       />
 
       <button
         type="submit"
-        class="bg-blue-600 text-white font-semibold rounded-md p-3 mt-4 hover:bg-blue-700 transition-colors"
+        class="bg-pink text-palepink font-semibold rounded-md p-3 mt-4 hover:bg-yellow hover:text-blue transition-colors"
       >
         Add Entry
       </button>
