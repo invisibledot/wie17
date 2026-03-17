@@ -1,10 +1,21 @@
 @import "tailwindcss";
 
 @theme {
+    --color-pink-0: #FADAEA;
     --color-pink: #E8348B;
+    --color-pink-1: #9C225D;
+
+    --color-blue-000: #DBDEFF;
+    --color-blue-00: #C5CAFF;
+    --color-blue-0: #9BA3FF;
     --color-blue: #333B8F;
-    --color-palepink: #FADAEA;
+    --color-blue-1: #353964;
+    --color-blue-11: #282A3A;
+
     --color-orange: #E95020;
+
+    --color-yellow-0: #FFFDD1;
     --color-yellow: #F3EFA4;
+
     --font-sans: "Inter", sans-serif;
 }

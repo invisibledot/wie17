@@ -5,11 +5,11 @@
 
 <div class="min-h-screen flex flex-col bg-gray-50">
   <!-- Navbar -->
-  <nav class="bg-pink shadow-md sticky top-0 z-50 relative px-6 py-4 flex justify-between items-center">
+  <nav class="bg-black sticky top-0 z-50 relative px-6 py-4 flex justify-between items-center">
     <!-- Logo: inline SVG instead of image -->
     <a href="/" class="flex items-center">
       <svg
-        class="h-10 sm:h-12 text-palepink hover:text-yellow transition-colors"
+        class="h-10 sm:h-12 text-white hover:text-yellow transition-colors"
         viewBox="0 0 48.8 12.6"
         fill="currentColor"
         xmlns="http://www.w3.org/2000/svg"
@@ -28,12 +28,12 @@
 
     <!-- Desktop links -->
     <div class="hidden sm:flex gap-6">
-      <a href="/" class="text-palepink font-medium hover:text-yellow transition-colors">Gallery</a>
-      <a href="/add" class="text-palepink font-medium hover:text-yellow transition-colors">Add Entry</a>
+      <a href="/" class="text-white font-medium hover:text-yellow transition-colors">Gallery</a>
+      <a href="/add" class="text-white font-medium hover:text-yellow transition-colors">Add Entry</a>
     </div>
 
     <!-- Hamburger (mobile) -->
-    <button class="sm:hidden text-palepink focus:outline-none" on:click={() => menuOpen = !menuOpen}>
+    <button class="sm:hidden text-white focus:outline-none" on:click={() => menuOpen = !menuOpen}>
       <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round"
               d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
@@ -42,7 +42,7 @@
 
     <!-- Mobile links -->
     {#if menuOpen}
-      <div class="sm:hidden absolute top-full left-0 w-full bg-palepink shadow-md flex flex-col gap-4 px-6 py-4 z-50">
+      <div class="sm:hidden absolute top-full left-0 w-full bg-white flex flex-col gap-4 px-6 py-4 z-50">
         <a href="/" class="text-blue font-medium hover:text-pink transition-colors">Gallery</a>
         <a href="/add" class="text-blue font-medium hover:text-pink transition-colors">Add Entry</a>
       </div>
@@ -50,7 +50,7 @@
   </nav>
 
   <!-- Page content -->
-  <main class="flex-1 p-4 sm:p-6 bg-yellow">
+  <main class="flex-1 p-4 sm:p-6 bg-white">
     <slot />
   </main>
 </div>
